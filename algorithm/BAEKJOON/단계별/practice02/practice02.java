@@ -12,7 +12,6 @@ public class Practice02 {
                     else
                         System.out.print("==");
                 }
-	}
 	public void practice02_2() {
                 Scanner sc = new Scanner(System.in);
                 int a = sc.nextInt();
@@ -27,7 +26,6 @@ public class Practice02 {
                 else
                     System.out.print("F");
             }
-	}
 	public void practice02_3() {
                 Scanner sc = new Scanner(System.in);
                 int a = sc.nextInt();
@@ -41,7 +39,6 @@ public class Practice02 {
                     System.out.print("0");
                 }
             }
-	}
 	public void practice02_4() {
                 Scanner sc = new Scanner(System.in);
                 int x = sc.nextInt();
@@ -63,7 +60,6 @@ public class Practice02 {
                     }
                 }
             }
-	}
 	public void practice02_5() {
                 Scanner sc = new Scanner(System.in);
                 int H = sc.nextInt();
@@ -80,5 +76,4 @@ public class Practice02 {
                     System.out.print(H +" "+(M-45));
                 }
             }
-	}
 }

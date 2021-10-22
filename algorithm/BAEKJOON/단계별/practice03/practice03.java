@@ -9,7 +9,6 @@ public class Practice03 {
             System.out.println(x + " * " + i + " = " + (x * i));
         }
     }
-	}
 	public void practice03_2() {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -26,7 +25,6 @@ public class Practice03 {
             System.out.println(j);
         }
     }
-	}
 	public void practice03_3() {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
@@ -54,7 +52,6 @@ public class Practice03 {
         bw.close();
         br.close();
     }
-	}
 	public void practice03_5() {
             Scanner sc = new Scanner(System.in);
             int x = sc.nextInt();
@@ -75,7 +72,6 @@ public class Practice03 {
         }
          sc.close();
     }
-}
 	public void practice03_7() {
         Scanner sc = new Scanner(System.in);
         int X = sc.nextInt();
@@ -87,7 +83,6 @@ public class Practice03 {
         }
         sc.close();
     }
-}
 	public void practice03_8() {
         Scanner sc = new Scanner(System.in);
         
@@ -100,7 +95,6 @@ public class Practice03 {
         }
         sc.close();
     }
-}
 	public void practice03_9() {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -113,7 +107,6 @@ public class Practice03 {
         System.out.println();
         }
       }
-}
 	public void practice03_10() {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -129,8 +122,7 @@ public class Practice03 {
             System.out.println();
             }
     }
-}
-	public void practice03_10() {
+	public void practice03_11() {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int X = sc.nextInt();
