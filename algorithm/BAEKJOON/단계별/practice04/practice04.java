@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class Practice03 {
-	public void practice03_1() {
+public class Practice04 {
+	public void practice04_1() {
         Scanner sc = new Scanner(System.in);
         
         while(true) {
@@ -15,7 +15,7 @@ public class Practice03 {
             System.out.println(A+B);
         }
     }
-	public void practice03_2() {
+	public void practice04_2() {
         Scanner sc = new Scanner(System.in);
     
         while(sc.hasNextInt()){
@@ -26,7 +26,7 @@ public class Practice03 {
             }
         sc.close();
     }
-	public void practice03_3() {
+	public void practice04_3() {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         sc.close();
