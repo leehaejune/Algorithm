@@ -25,4 +25,26 @@ public class Practice08 {
                 }
                 
 	}
+    public void practice08_2() {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int count = 1;
+        int range = 2;
+
+        if (A == 1){
+            System.out.print(1);
+        }
+
+        else {
+            while(range <= A) {
+                range = range + (6 * count);
+                count++;
+            }
+            System.out.print(count);
+        }
+
+// 1 1+6 1+6+12 1+6+12+18 1+6+12+18+24
+// 1 7 19 37 61
+// 1 2 3  4  5 
+    }
 }
