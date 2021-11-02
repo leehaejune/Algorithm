@@ -47,4 +47,32 @@ public class Practice08 {
 // 1 7 19 37 61
 // 1 2 3  4  5 
     }
+    public void practice08_3() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int a =1; // 대각선 개수
+        int b =0; // 칸의 개수
+        
+        while(true) {
+        if (n <= a+b) {
+            if( a % 2 == 1) { // 홀수
+                System.out.print((a - (n - b - 1)) + "/" + (n - b));
+                break;
+            }
+            
+            else { // 짝수
+                System.out.print((n - b) + "/" + (a - (n - b - 1)));
+                break;
+            }
+        } else {
+            b +=a;
+            a++;
+        }    
+      }
+    }
+    //분자 자리 분모자리 확인
+    //X값을 받음, (n)
+    //짝수 1/2 > 2/1 
+    //홀수 3/1 > 2/2 > 1/3 순서 룰 확인
 }
