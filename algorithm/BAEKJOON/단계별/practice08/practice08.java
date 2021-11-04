@@ -91,4 +91,21 @@ public class Practice08 {
     //X값을 받음, (n)
     //짝수 1/2 > 2/1 
     //홀수 3/1 > 2/2 > 1/3 순서 룰 확인
+    public void practice08_5() {
+        Scanner sc = new Scanner(System.in);
+        
+        int T = sc.nextInt();
+    
+        for(int i=0; i<T; i++){
+            int H = sc.nextInt();
+            int W = sc.nextInt();
+            int N = sc.nextInt();
+            
+            if(N % H == 0){
+                System.out.println((H * 100) + (N / H));
+            } else {
+                System.out.println(((N % H) * 100) + ((N / H) +1));
+            }
+        }
+    }
 }
